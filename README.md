@@ -80,7 +80,7 @@ You can make commits through the shell. Navigate to the homework directory. If I
 
 Two things about committing. One, you should commit somewhat frequently. At minimum, if you're doing a homework assignment, you should make a commit each time that you've finished a question. Two, leave informative commit messages. "Added stuff" will not help you if you're looking at your commit history in a year. A message like "Added initial version of hello-world function" will be more useful.
 
-6.  At some point you'll want to get the updated version of the assignment back onto GitHub, either so that teachers/TAs can help you with your code, or so that it can be graded. You can do this by using a command in the shell called `git push origin master`. Make sure youʻre in the same directory as the repo.
+6.  At some point you'll want to get the updated version of the assignment back onto GitHub, either so that teachers/TAs can help you with your code, or so that it can be graded. You can do this by using a command in the shell called `git push origin main`. Make sure youʻre in the same directory as the repo.
  Easy!
 
 ### Obtaining and pulling a shared repository
