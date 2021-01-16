@@ -17,13 +17,8 @@ This is a guide for students to setup Git and GitHub for use with GitHub Classro
 
 5. Follow the instructions here (http://happygitwithr.com/push-pull-github.html) to ensure you can connect to GitHub from your computer. Here are step-by-step GIFs from a Mac that help visualize this process.
 
-### Make a repo on GitHub
-
-Below we make a repository and copy the link so that we can get the repository onto our own computer.
-
-![Alt Text](http://g.recordit.co/Uw0QIT8XhR.gif)
-
 ### Clone the hw-repo to your local computer
+Use the link specific to the repo that you want to clone
 
 ![Alt Text](http://g.recordit.co/0eLLGCclcO.gif)
 
@@ -71,19 +66,13 @@ And here is what the process of creating these directories looks like from the t
 
 ![Alt Text](http://g.recordit.co/6o0kNx4Lpv.gif)
 
-2.  We will give you a link to an assignment, either through email or the class page. This will happen for each new assignment Then follow the instructions for getting the homework repository set up. You should now have a repository for this homework. Note that after you accept an assignment for the first time, we will send you an invite to join the classroom organization as a member. Please accept this. You will probably get an email with the invitation, but you should also see a link at the top of your main GitHub page. Here is an image of what you should see after clicking the link:
-
-![Alt Text](img/accept-assignment.png)
+2.  We will give you a link to an assignment, either through email or the class page. This will happen for each new assignment Then follow the instructions for getting the homework repository set up. You should now have a repository for this homework. Note that after you accept an assignment for the first time, we will send you an invite to join the classroom organization as a member. Please accept this. You will probably get an email with the invitation, but you should also see a link at the top of your main GitHub page.
 
 3. Enter the homework repository on GitHub (this is online--GitHub is different from Git!). Click “Clone or Download”, and make sure it says “Clone with SSH” in bold in the top left of the pop-up box. If not, click on the blue “Use SSH” button on the top right of the pop-up box. Now copy the link in the box to your clipboard.
 
 4.  Using the shell (Terminal or CMD). Navigate inside of your `Homework` directory and then type `git clone repository-link` where `repository link` should be replaced with the link you copied to your clipboard in step 3. You now have ALL the files and have your first repo (repository)!
 
 Note that if you received an error in the above steps, you may have to clone with HTTPS instead of SSH. You can do this by again clicking on the "Clone or Download" button in the repository page, then clicking "Use HTTPS" in the top right of the pop-up box. Now copy the link and repeat this step.
-
-Here is a visualization of cloning an assignment onto your computer through R Studio on a Mac:
-
-![Alt Text](http://g.recordit.co/nKeMWFh4vS.gif)
 
 5.  After you make changes to the homework assignment, commit them. What are commits you ask? Commits are essentially taking a snapshot of your projects. For example, if I make changes to a code so that it prints "Hello world", and then commit them with an informative message, I can look at the history of my commits and view the code that I wrote at that time. If I made some more changes to the function that resulted in an error, I could go back to the commit where the code was originally working. This prevents you from creating several versions of your homework (homework-v1, homework-v2, ...) or from trying to remember what your code originally looked like.
 
